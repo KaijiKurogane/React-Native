@@ -1,6 +1,19 @@
 import React, {Component} from 'react';
-import {View, Text, Button, Alert, StyleSheet} from 'react-native';
-import { Table, TableWrapper, Row, Rows, Col, Cols, Cell } from 'react-native-table-component';
+import {
+  View, 
+  Text, 
+  Button, 
+  Alert, 
+  StyleSheet} from 'react-native';
+import {
+  Table, 
+  TableWrapper, 
+  Row, 
+  Rows, 
+  Col, 
+  Cols, 
+  Cell
+} from 'react-native-table-component';
 
 export default class App extends Component{
   constructor(props){
